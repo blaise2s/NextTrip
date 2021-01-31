@@ -1,0 +1,28 @@
+// src/app/components/real-time-departure/schedule/Schedule.module.scss
+
+.arrivingSoon {
+  display: flex;
+  align-items: center;
+
+  > svg {
+    padding-left: 0.25rem;
+    animation: pulse 3s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      color: #000000;
+    }
+    50% {
+      color: #b5b5b5;
+    }
+
+    100% {
+      color: #000000;
+    }
+  }
+}
+
+.noDepartures {
+  padding: 2rem 0 2rem 1rem;
+}

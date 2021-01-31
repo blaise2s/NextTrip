@@ -1,0 +1,15 @@
+// src/app/components/real-time-departure/by-route/ByRoute.tsx
+
+.byRoute {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+
+  > div {
+    margin-bottom: 2rem;
+  }
+}
+
+.select {
+  width: 20rem;
+}
