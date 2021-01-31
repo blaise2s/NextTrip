@@ -2,13 +2,13 @@
 
 ### Build & Run Locally
 
-1. `git clone TODO`
-2. `cd TODO`
+1. `git clone git@github.com:blaise2s/NextTrip.git`
+2. `cd NextTrip`
 3. `yarn install`
 4. `yarn build`
 5. `yarn start` or `yarn dev` for dev mode
 
-You can also view it here: `TODO`
+You can also view it here: https://next-trip-msp.herokuapp.com/
 
 ### Test
 
